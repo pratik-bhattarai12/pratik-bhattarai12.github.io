@@ -21,7 +21,6 @@
 
 html {
   scroll-behavior: smooth;
-<<<<<<< HEAD
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -174,10 +173,6 @@ html {
 [data-theme="dark"] .icon-moon { display: inline; }
 .icon-moon { display: none; }
 
-=======
-}
-
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 body {
   min-height: 100vh;
   color: var(--ink);
@@ -189,10 +184,7 @@ body {
     radial-gradient(circle at 18% 78%, rgba(166, 86, 255, 0.12), transparent 30rem),
     linear-gradient(135deg, #fbfcff 0%, #f7f9ff 46%, #fff8ff 100%);
   overflow-x: hidden;
-<<<<<<< HEAD
   transition: background 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 body::before,
@@ -208,10 +200,7 @@ body::after {
   transform: rotate(-8deg);
   border-radius: 50%;
   z-index: -1;
-<<<<<<< HEAD
   transition: background 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 body::after {
@@ -230,13 +219,10 @@ ul {
   list-style: none;
 }
 
-<<<<<<< HEAD
 img {
   max-width: 100%;
 }
 
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 .navbar,
 section,
 .contact-container {
@@ -261,7 +247,6 @@ section,
   border-radius: 16px;
   box-shadow: 0 14px 45px rgba(35, 45, 110, 0.09);
   backdrop-filter: blur(20px);
-<<<<<<< HEAD
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 
@@ -294,8 +279,6 @@ section,
   background: rgba(30, 35, 65, 0.9);
   border-color: rgba(93, 103, 246, 0.25);
   color: #e4e8f7;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 .navbar > a {
@@ -312,15 +295,7 @@ section,
 .hero-lastname,
 .colorname,
 .coloridea,
-<<<<<<< HEAD
 .color-learning {
-=======
-.color-learning,
-.front,
-.back,
-.tools,
-.profiency-bar {
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   color: var(--blue);
 }
 
@@ -388,10 +363,7 @@ section,
   border-radius: 18px;
   box-shadow: var(--shadow);
   overflow: hidden;
-<<<<<<< HEAD
   transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 section::before,
@@ -499,14 +471,11 @@ section::before,
   transform: translateY(-2px);
 }
 
-<<<<<<< HEAD
 .btn:focus-visible {
   outline: 2px solid var(--blue);
   outline-offset: 2px;
 }
 
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 .btn-primary {
   color: #fff;
   background: linear-gradient(135deg, var(--blue), var(--violet));
@@ -614,34 +583,6 @@ img.hero-image {
   object-fit: contain;
 }
 
-<<<<<<< HEAD
-=======
-.stats-container {
-  display: none;
-}
-
-.stat-box {
-  text-align: center;
-}
-
-.stat-box + .stat-box {
-  border-left: 1px solid rgba(93, 103, 246, 0.14);
-}
-
-.stat-number {
-  font-size: clamp(1.55rem, 3vw, 2.3rem);
-  line-height: 1.1;
-  font-weight: 800;
-}
-
-.stat-label {
-  margin-top: 5px;
-  color: var(--muted);
-  font-size: 0.86rem;
-  font-weight: 600;
-}
-
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 .head-about,
 .title-myskills,
 .project-title,
@@ -714,10 +655,7 @@ img.hero-image {
   border-radius: 28px;
   background: linear-gradient(145deg, #edddff, #dff0ff);
   box-shadow: var(--soft-shadow);
-<<<<<<< HEAD
   transition: background 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 .tech-card img {
@@ -743,10 +681,7 @@ img.hero-image {
   border: 1px solid rgba(93, 103, 246, 0.14);
   border-radius: 18px;
   box-shadow: 0 18px 35px rgba(31, 44, 103, 0.15);
-<<<<<<< HEAD
   transition: background 0.3s ease, border-color 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 .tag-line::after {
@@ -773,15 +708,7 @@ img.hero-image {
   align-self: start;
 }
 
-<<<<<<< HEAD
 .learning h3 {
-=======
-.learning h3,
-.front,
-.back,
-.tools,
-.profiency-bar {
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   margin-bottom: 12px;
   font-size: 1rem;
   font-weight: 800;
@@ -790,11 +717,7 @@ img.hero-image {
 .learning li {
   position: relative;
   margin: 9px 0 0 22px;
-<<<<<<< HEAD
   color: var(--ink);
-=======
-  color: #2f3956;
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   font-weight: 600;
 }
 
@@ -813,17 +736,12 @@ img.hero-image {
   padding-inline: clamp(34px, 5vw, 58px);
 }
 
-<<<<<<< HEAD
 .skills > h1,
-=======
-.skills > h3,
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 .skills > div {
   position: relative;
   z-index: 1;
 }
 
-<<<<<<< HEAD
 /* ── Skill Tags ── */
 .skill-tags {
   position: relative;
@@ -833,18 +751,10 @@ img.hero-image {
   gap: 12px;
   justify-content: center;
   padding: 28px;
-=======
-.frontend-skills,
-.backend-skills,
-.tools-skills {
-  margin-bottom: 32px;
-  padding: 24px 28px;
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   background: var(--panel);
   border: 1px solid rgba(93, 103, 246, 0.14);
   border-radius: 16px;
   box-shadow: 0 10px 26px rgba(71, 82, 145, 0.08);
-<<<<<<< HEAD
   transition: background 0.3s ease, border-color 0.3s ease;
 }
 
@@ -883,126 +793,21 @@ img.hero-image {
 }
 
 .project-grid {
-=======
-}
-
-.frontend-skills ul,
-.backend-skills ul,
-.tools-skills ul {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(120px, 1fr));
-  gap: 18px;
-}
-
-.frontend-skills li,
-.backend-skills li,
-.tools-skills li {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-height: 58px;
-  font-weight: 700;
-}
-
-.frontend-skills img,
-.backend-skills img,
-.tools-skills img {
-  width: 44px;
-  height: 44px;
-  object-fit: contain;
-}
-
-.skills-container {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(260px, 1fr));
-  gap: 54px;
-}
-
-.skill {
-  margin-bottom: 22px;
-}
-
-.skill-info {
-  display: flex;
-  position: relative;
-  margin-bottom: 9px;
-  color: #34405f;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.skill-info span:last-child {
-  position: absolute;
-  left: var(--level);
-  transform: translateX(-100%);
-}
-
-.skill:has(.react) .skill-info span:last-child,
-.skill:has(.node) .skill-info span:last-child,
-.skill:has(.mongo) .skill-info span:last-child {
-  left: auto;
-  right: 0;
-  transform: none;
-}
-
-.progress-bar {
-  height: 8px;
-  overflow: hidden;
-  background: #e8ecf6;
-  border-radius: 999px;
-}
-
-.progress {
-  height: 100%;
-  border-radius: inherit;
-  background: linear-gradient(90deg, var(--blue), #b955ff);
-}
-
-.html { width: 95%; }
-.css { width: 90%; }
-.js { width: 45%; }
-.react { width: 0%; }
-.node { width: 0%; }
-.mongo { width: 0%; }
-
-.skill:has(.html) .skill-info { --level: 95%; }
-.skill:has(.css) .skill-info { --level: 90%; }
-.skill:has(.js) .skill-info { --level: 45%; }
-.skill:has(.react) .skill-info { --level: 0%; }
-.skill:has(.node) .skill-info { --level: 0%; }
-.skill:has(.mongo) .skill-info { --level: 0%; }
-
-.my-projects {
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   display: grid;
   grid-template-columns: repeat(3, minmax(220px, 1fr));
   gap: 28px;
 }
 
-<<<<<<< HEAD
 .project-card {
   position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
-=======
-.project-title {
-  grid-column: 1 / -1;
-  margin-bottom: 4px;
-}
-
-.project1-portfolio,
-.project2-login {
-  position: relative;
-  z-index: 1;
-  min-height: 315px;
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   padding: 18px;
   background: var(--panel-strong);
   border: 1px solid rgba(93, 103, 246, 0.14);
   border-radius: 16px;
   box-shadow: 0 14px 34px rgba(55, 66, 140, 0.12);
-<<<<<<< HEAD
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease, border-color 0.3s ease;
 }
 
@@ -1039,75 +844,16 @@ img.hero-image {
 }
 
 .project-card-header.alt.placeholder {
-=======
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.project1-portfolio::before,
-.project2-login::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 150px;
-  margin-bottom: 18px;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.2), transparent),
-    linear-gradient(135deg, #3141a8, #7c52ff 52%, #dfe9ff);
-  border-radius: 12px;
-}
-
-.project1-portfolio:has(img:not([src="#"]):not([src=""]))::before,
-.project2-login:has(img:not([src="#"]):not([src=""]))::before {
-  display: none;
-}
-
-.project2-login::before {
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.4), transparent),
     linear-gradient(135deg, #695cff, #cfd8ff);
 }
 
-<<<<<<< HEAD
 .project-card h3 {
-=======
-.project1-portfolio:nth-of-type(4)::before {
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.16), transparent),
-    linear-gradient(135deg, #171927, #383f66 45%, #ffd146);
-}
-
-.project1-portfolio:hover,
-.project2-login:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 22px 45px rgba(55, 66, 140, 0.17);
-}
-
-.project1-portfolio img,
-.project2-login img {
-  display: block;
-  width: 100%;
-  height: 150px;
-  margin-bottom: 18px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-.project1-portfolio img[src="#"],
-.project2-login img[src="#"],
-.project1-portfolio img[src=""],
-.project2-login img[src=""] {
-  display: none;
-}
-
-.project1-portfolio h3,
-.project2-login h3 {
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   margin-bottom: 4px;
   font-size: 1.18rem;
 }
 
-<<<<<<< HEAD
 .project-card p {
   color: var(--muted);
   font-weight: 600;
@@ -1146,24 +892,6 @@ img.hero-image {
 
 .btn-sm::after {
   content: none;
-=======
-.project1-portfolio p,
-.project2-login p {
-  color: var(--muted);
-  font-weight: 600;
-}
-
-.project1-portfolio::after,
-.project2-login::after {
-  content: "HTML  CSS  JS";
-  position: absolute;
-  left: 18px;
-  bottom: 18px;
-  color: var(--blue);
-  font-size: 0.75rem;
-  font-weight: 800;
-  word-spacing: 12px;
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 .journey {
@@ -1183,13 +911,6 @@ img.hero-image {
   gap: 24px;
 }
 
-<<<<<<< HEAD
-=======
-.explain-journey::before {
-  content: none;
-}
-
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 .year {
   display: grid;
   grid-template-columns: 90px 1fr;
@@ -1197,13 +918,6 @@ img.hero-image {
   gap: 28px;
 }
 
-<<<<<<< HEAD
-=======
-.year::before {
-  content: none;
-}
-
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 .year > p {
   position: relative;
   grid-column: 1;
@@ -1213,13 +927,6 @@ img.hero-image {
   text-align: right;
 }
 
-<<<<<<< HEAD
-=======
-.year > p::after {
-  content: none;
-}
-
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 .year > div {
   position: relative;
   grid-column: 2;
@@ -1230,10 +937,7 @@ img.hero-image {
   border: 1px solid rgba(93, 103, 246, 0.14);
   border-radius: 14px;
   box-shadow: 0 12px 28px rgba(55, 66, 140, 0.1);
-<<<<<<< HEAD
   transition: background 0.3s ease, border-color 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 .year h3 {
@@ -1256,10 +960,7 @@ img.hero-image {
   background: #f2edff;
   border-radius: 16px;
   transform: translateY(-50%);
-<<<<<<< HEAD
   transition: background 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 .contact-container {
@@ -1288,10 +989,7 @@ img.hero-image {
   border: 1px solid rgba(93, 103, 246, 0.14);
   border-radius: 16px;
   box-shadow: 0 13px 30px rgba(55, 66, 140, 0.1);
-<<<<<<< HEAD
   transition: background 0.3s ease, border-color 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 .form-group {
@@ -1316,11 +1014,7 @@ textarea {
   border: 1px solid rgba(83, 94, 170, 0.18);
   border-radius: 10px;
   outline: none;
-<<<<<<< HEAD
   transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
-=======
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 textarea {
@@ -1348,7 +1042,6 @@ textarea:focus {
   background: linear-gradient(135deg, var(--blue), var(--violet));
   box-shadow: 0 16px 26px rgba(93, 103, 246, 0.24);
   cursor: pointer;
-<<<<<<< HEAD
   transition: transform 0.2s ease;
 }
 
@@ -1359,8 +1052,6 @@ textarea:focus {
 .submit-btn:focus-visible {
   outline: 2px solid #fff;
   outline-offset: 2px;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 .icon-paper-plane::before {
@@ -1446,10 +1137,7 @@ textarea:focus {
   border: 1px solid rgba(93, 103, 246, 0.13);
   border-radius: 14px;
   box-shadow: var(--soft-shadow);
-<<<<<<< HEAD
   transition: background 0.3s ease, border-color 0.3s ease;
-=======
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 @media (max-width: 960px) {
@@ -1479,25 +1167,13 @@ textarea:focus {
     grid-template-columns: 1fr;
   }
 
-<<<<<<< HEAD
-=======
-  .hero-content {
-    grid-template-columns: 1fr;
-  }
-
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   .profession,
   .Home h1,
   .title,
   .hero-intro,
   .hero-actions,
   .social-links,
-<<<<<<< HEAD
   .hero-content > .hero-image {
-=======
-  .hero-content > .hero-image,
-  .stats-container {
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
     grid-column: 1;
     grid-row: auto;
   }
@@ -1518,23 +1194,9 @@ textarea:focus {
     width: 100%;
   }
 
-<<<<<<< HEAD
   .project-grid {
     grid-template-columns: repeat(2, minmax(180px, 1fr));
   }
-=======
-  .frontend-skills ul,
-  .backend-skills ul,
-  .tools-skills ul,
-  .skills-container,
-  .my-projects {
-    grid-template-columns: repeat(2, minmax(180px, 1fr));
-  }
-
-  .project-title {
-    grid-column: 1 / -1;
-  }
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
 }
 
 @media (max-width: 680px) {
@@ -1574,29 +1236,10 @@ textarea:focus {
     min-height: 390px;
   }
 
-<<<<<<< HEAD
   .project-grid {
     grid-template-columns: 1fr;
   }
 
-=======
-  .stats-container,
-  .frontend-skills ul,
-  .backend-skills ul,
-  .tools-skills ul,
-  .skills-container,
-  .my-projects {
-    grid-template-columns: 1fr;
-  }
-
-  .stat-box + .stat-box {
-    padding-top: 18px;
-    margin-top: 18px;
-    border-top: 1px solid rgba(93, 103, 246, 0.14);
-    border-left: 0;
-  }
-
->>>>>>> ff339aebf32088488ba59fdc3e886f63645f3472
   .tech-card {
     min-height: auto;
     padding: 18px;
